@@ -71,7 +71,7 @@
   };
   var kioskBoardCachedKeys;
   var kioskBoardNewOptions;
-  var kioskBoardGithubUrl = 'https://github.com/furcan/KioskBoard';
+  var kioskBoardGithubUrl = 'https://github.com/matteogheza/KioskBoard';
   var kioskBoardSpecialCharacters = {
     '0': '!',
     '1': '\'',

@@ -65,7 +65,7 @@ module.exports = {
   version: (JSON.stringify((package || {}).version) || '').replace(/"/gm, ''),
   author: (JSON.stringify((package || {}).author) || '').replace(/"/gm, ''),
   title: 'KioskBoard - Virtual Keyboard',
-  url: '(https://github.com/furcan/KioskBoard)',
+  url: '(https://github.com/matteogheza/KioskBoard)',
   license: 'MIT Licence (https://opensource.org/licenses/MIT)',
   year: new Date().getFullYear() || '2022',
   cleanCSSOptions,

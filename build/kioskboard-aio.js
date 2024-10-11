@@ -72,7 +72,7 @@
   };
   var kioskBoardCachedKeys;
   var kioskBoardNewOptions;
-  var kioskBoardGithubUrl = 'https://github.com/furcan/KioskBoard';
+  var kioskBoardGithubUrl = 'https://github.com/matteogheza/KioskBoard';
   var kioskBoardSpecialCharacters = {
     '0': '!',
     '1': '\'',
@@ -359,6 +359,10 @@
 
         // each input focus listener: begin
         var inputFocusListener = function (e) {
+          if (typeof opt.keyboardOpenCallback === 'function' && !opt.keyboardOpenCallback(input)) {
+            return false;
+          }
+
           // input element variables: begin
           var theInput = e.currentTarget;
           var theInputSelIndex = 0;
