@@ -166,6 +166,12 @@ declare namespace KioskBoard {
      * @defaultValue `true`
      */
     keysEnterCanClose?: boolean;
+
+    /**
+     * @property {function} - Optional, The callback function of the virtual keyboard. This function will be called when the input get focused. Return false to prevent keyboard open.
+     * @defaultValue `undefined`
+     */
+    keyboardOpenCallback?: (input: HTMLInputElement | HTMLTextAreaElement) => boolean|void;
   }
 
   /**
