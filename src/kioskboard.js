@@ -68,6 +68,7 @@
     keysEnterText: 'Enter',
     keysEnterCallback: undefined,
     keysEnterCanClose: true,
+    keyboardOpenCallback: undefined,
   };
   var kioskBoardCachedKeys;
   var kioskBoardNewOptions;
