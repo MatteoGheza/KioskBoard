@@ -82,6 +82,12 @@ declare namespace KioskBoard {
     capsLockActive?: boolean;
 
     /**
+     * @property {boolean} - Optional, Uppercase or lowercase first character only. Uppercased when `true`.
+     * @defaultValue `true`
+     */
+    capsLockAuto?: boolean;
+
+    /**
      * @property {boolean} - Optional, Allow or prevent real/physical keyboard usage. Prevented when `false`.
      * @defaultValue `false`
      *
